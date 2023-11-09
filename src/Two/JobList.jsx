@@ -217,12 +217,12 @@ const jobs = [
 export const JobList = () => {
   return (
     <div className="w-[40rem] rounded-3xl bg-white p-12 font-poppin font-medium">
-      <div className="flex gap-3">
+      <div className="flex w-full gap-3">
         <div className="relative grow rounded border-2 border-gray-300">
           <input
             type="text"
             placeholder="Search for a part-time job"
-            className="ml-8 w-[16rem] p-4 outline-none"
+            className="pl-12 w-full p-4 outline-none"
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
